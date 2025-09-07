@@ -30,7 +30,7 @@ app.use(cookieParser());
 
 const corsOptions={
     origin:["http://localhost:5173",
-        "https://job-portal-frontend-delta-neon.vercel.app/"
+        "https://job-portal-frontend-delta-neon.vercel.app"
     ],
     credentials: true,
 }
